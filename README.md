@@ -1,5 +1,7 @@
 # Prompt on Speech Self-Supervised Learning Model
-This repo is for the research of adding prefix tuning (prompt) on speech self-supervised learning model. The codes are modified from https://github.com/s3prl/s3prl and https://github.com/facebookresearch/fairseq. I experimented with HuBERT, DeCoAR2, and Wav2Vec2 on 6 SUPERB downstream tasks (ASR, IC, PR, SF, KS, SD, SID), and explore its benefits in stability and low data regime. My teamates and my work is together submitted SLT 2022. Publication: Zih-Ching Chen, Allen Fu, Chih-Ying Liu, Hung-yi Lee, and Shang-Wen Li, “Exploring Efficient-tuning Methods in Self-supervised Speech Models”, IEEE Spoken Language Technology Workshop, 2022.
+This repo is for the research of adding prefix tuning (prompt) on speech self-supervised learning model. The codes are modified from https://github.com/s3prl/s3prl and https://github.com/facebookresearch/fairseq. I experimented with HuBERT, DeCoAR2, and Wav2Vec2 on 6 SUPERB downstream tasks (ASR, IC, PR, SF, KS, SD, SID), and explore its benefits in stability and low data regime. My teamates and my work is together submitted SLT 2022. 
+
+**Publication**: Zih-Ching Chen, Allen Fu, Chih-Ying Liu, Hung-yi Lee, and Shang-Wen Li, “Exploring Efficient-tuning Methods in Self-supervised Speech Models”, IEEE Spoken Language Technology Workshop, 2022 ([link](https://arxiv.org/abs/2210.06175)).
 
 ## Usage
 1. Get initialization
